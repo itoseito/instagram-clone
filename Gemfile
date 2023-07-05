@@ -13,6 +13,7 @@ gem 'rails', '~> 7.0.4.2'
 gem 'mysql2', '~> 0.5'
 gem 'puma', '~> 5.0'
 gem 'sprockets-rails'
+gem 'devise'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
@@ -26,3 +27,4 @@ group :development do
   gem 'rubocop-rspec'
   gem 'solargraph'
 end
+gem "tailwindcss-rails", "~> 2.0"

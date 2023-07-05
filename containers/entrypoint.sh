@@ -1,5 +1,3 @@
-# containers/entrypoint.sh
-
 #!/bin/bash
 set -e
 
